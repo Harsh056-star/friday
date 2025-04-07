@@ -1,9 +1,6 @@
 import dayjs from 'dayjs';
-import Image from "next/image";
 import {getRandomInterviewCover} from "@/lib/utils";
-import {Button} from "@/components/ui/button";
 import Link from 'next/link';
-import DisplayTechIcon from './DisplayTechIcons';
 import DisplayTechIcons from './DisplayTechIcons';
 
 
