@@ -128,5 +128,5 @@ export async function getCurrentUser(): Promise<User | null> {
 export async function isAuthenticated() {
   const user = await getCurrentUser();
   return !!user;/*true= boolean if having a string {name: 'Adam' }-> !{}=>false->!false
-  if not having a string ''->!->true -> !true->false it us the answer
+  if not having a string ''->!->true -> !true->false it us the answer*/
 }
