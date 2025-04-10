@@ -2,6 +2,7 @@ import InterviewCard from '@/components/InterviewCard'
 import { dummyInterviews } from '@/constants'
 import React from 'react'
 import Link from 'next/link';
+import Image from 'next/image';
 
 const page = () => {
   return (
@@ -19,7 +20,7 @@ const page = () => {
         <Link href="/interview"> Start an Inteview</Link>
         </button>
         </div>
-          <img src="/robot.png" alt="robo-dude" width={400} height={400} className="max-sm:hidden" />
+          <Image src="/robot.png" alt="robo-dude" width={400} height={400} className="max-sm:hidden" />
           </section>
         
         <section className="flex flex-col gap-6 mt-8">
