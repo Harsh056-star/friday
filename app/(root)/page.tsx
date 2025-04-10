@@ -1,6 +1,7 @@
 import InterviewCard from '@/components/InterviewCard'
 import { dummyInterviews } from '@/constants'
 import React from 'react'
+import Link from 'next/link';
 
 const page = () => {
   return (
@@ -15,7 +16,7 @@ const page = () => {
 
         <button /*asChild*/ className="btn-primary ax-sm:w-full">
         Click here
-        <a href="/interview"> Start an Inteview</a>
+        <Link href="/interview"> Start an Inteview</Link>
         </button>
         </div>
           <img src="/robot.png" alt="robo-dude" width={400} height={400} className="max-sm:hidden" />
